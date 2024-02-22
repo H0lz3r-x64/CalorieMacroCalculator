@@ -1,6 +1,6 @@
-# LBS Calorie and Macro Calculator
+# Calorie and Macro Calculator 
 
-This project is an assignment for Landesberufschule (LBS), thus the implementation of the LBS Calculation Method additional to the standard method.
+This project is an assignment for the Landesberufschule (LBS) (eng=vocational school), thus the implementation of the LBS Calculation Method additional to the standard method.
 It is a PHP-based web application with a frontend built using HTML, CSS, and JavaScript.
 
 Inspiration for this project was taken from the Calorie Calculator available at [MuscleHacking](https://www.musclehacking.com/calorie-calculator/). This application aims to provide a similar functionality with some altered functionality.
