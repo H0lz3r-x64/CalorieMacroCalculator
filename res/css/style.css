@@ -1,0 +1,107 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 10px auto 0;
+    max-width: 1000px;
+    border: 1px solid #ccc;
+    padding: 0.5em 1em 0.75em;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.star-effect {
+    position: relative;
+    text-align: center;
+}
+
+#estimatedWeightLoss {
+    position: relative;
+    z-index: 2;
+}
+
+.star-effect img {
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+#cal-table {
+    font-weight: 700;
+    width: 100%;
+    text-align: center;
+}
+
+#cal-table th,
+#cal-table td {
+    border: none;
+    outline: none;
+}
+
+#caltab {
+    background-color: rgba(231, 77, 60, 0.85) !important;
+}
+
+#protab {
+    background-color: #2ecc71 !important;
+}
+
+#caltab-r {
+    background-color: rgba(236, 113, 99, 0.75) !important;
+}
+
+#protab-r {
+    background-color: rgba(46, 204, 112, 0.6) !important;
+}
+
+#fattab-r {
+    background-color: rgba(115, 198, 181, 0.77) !important;
+}
+
+#cartab-r {
+    background-color: rgba(248, 196, 113, 0.9) !important;
+}
+
+#fattab {
+    background-color: #45b39d !important;
+}
+
+#cartab {
+    background-color: #f39c12 !important;
+}
+.range-container {
+    position: relative;
+    height: 20px;
+}
+
+.track {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 8px;
+    width: 100%;
+    z-index: 1;
+}
+
+input[type="range"] {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    position: relative;
+    z-index: 2;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background: #f0f0f0;
+    border: 1px solid #999999;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
