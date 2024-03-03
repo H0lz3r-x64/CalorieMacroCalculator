@@ -3,6 +3,16 @@
 This project is an assignment for the Landesberufschule (LBS) (eng=vocational school), thus the implementation of the LBS Calculation Method additional to the standard method.
 It is a PHP-based web application with a frontend built using HTML, CSS, and JavaScript.
 
+![image](https://github.com/H0lz3r-x64/CalorieMacroCalculator/assets/91200978/001d1ad3-6329-4f3c-87a1-7d0804c0ce24)
+### Activity Level Select
+![image](https://github.com/H0lz3r-x64/CalorieMacroCalculator/assets/91200978/074ec77e-8872-488f-ab19-a55ac32832c9)
+
+![image](https://github.com/H0lz3r-x64/CalorieMacroCalculator/assets/91200978/33ffef14-d06f-47ed-baeb-79e364f49589)
+
+![image](https://github.com/H0lz3r-x64/CalorieMacroCalculator/assets/91200978/ec7be7b9-8c09-4246-8b0b-03a2ca67da37)
+
+Application works via ajax post requests and auto-updates results once any input changes.
+
 Inspiration for this project was taken from the Calorie Calculator available at [MuscleHacking](https://www.musclehacking.com/calorie-calculator/). This application aims to provide a similar functionality with some altered functionality.
 
 ## Project Structure
